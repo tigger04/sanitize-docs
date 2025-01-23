@@ -1,0 +1,24 @@
+{
+    "rules": [
+        {
+            "pattern": "\\bDeloitte\\b",
+            "replacement": "An Accounts Consultancy Firm"
+        },
+        {
+            "pattern": "\\bAccenture\\b",
+            "replacement": "A Technology Consultancy"
+        },
+        {
+            "pattern": "\\bSSE\\b",
+            "replacement": "An Energy Utility"
+        },
+        {
+            "pattern": "\\bVodafone\\b",
+            "replacement": "A Telco"
+        },
+        {
+            "pattern": "\\b[A-Za-z0-9._%+-]+@deloitte\\.ie\\b",
+            "replacement": "john.smith@accountancy-firm.co"
+        }
+    ]
+}
